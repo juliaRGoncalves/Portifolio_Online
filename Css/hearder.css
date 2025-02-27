@@ -29,3 +29,24 @@ header a{
 header h1:hover, a:hover{
     color: #fff;
 }
+
+header .foto_perfil img{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 8px;
+    margin-right:  1.2em;
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+header .nome_logo{
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-inline-start: 8px;
+}
